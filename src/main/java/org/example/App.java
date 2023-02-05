@@ -20,5 +20,17 @@ public class App {
 
         return min;
     }
+
+    public static Integer max(Integer[] numbers) {
+        Integer max = Integer.MAX_VALUE;
+
+        for (Integer num : numbers) {
+            if (num < max) {
+                max = num;
+            }
+        }
+
+        return max;
+    }
 }
 
